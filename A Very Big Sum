@@ -1,0 +1,10 @@
+function aVeryBigSum(ar) {
+    let sma = 0;
+    
+    for (let i = 0; i < ar.length; i++) {
+        sma = sma + ar[i];
+    }
+    
+    return sma;
+    
+}
